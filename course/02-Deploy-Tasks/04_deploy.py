@@ -47,7 +47,10 @@
 
 # MAGIC %md
 # MAGIC
-# MAGIC Answer here...
+# MAGIC En job er en definisjon av et set operasjoner (workbooks) som skal kjøres.
+# MAGIC en job er beskrevet av en deployment.yml-fil
+# MAGIC
+# MAGIC en job run er en spesifikk kjøring, en instans av en job
 
 # COMMAND ----------
 
@@ -55,6 +58,8 @@
 # MAGIC ## Task: How was the job name composed?
 # MAGIC
 # MAGIC Write answer in the empty cell below.
+# MAGIC
+# MAGIC job name er basert på mappestrukturen til catalog->branchname->git commit sha
 
 # COMMAND ----------
 

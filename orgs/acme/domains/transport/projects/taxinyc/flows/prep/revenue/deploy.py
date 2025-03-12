@@ -33,6 +33,7 @@ from brickops.dataops.job import run_job_by_name
 
 # COMMAND ----------
 
+# DBTITLE 1,Autojob cell
 # Deploy jobs based on deployment.yml, in dev mode, specified by env param
 response = autojob(env="test")
 
